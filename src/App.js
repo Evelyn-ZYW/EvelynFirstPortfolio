@@ -26,9 +26,9 @@ class App extends Component {
           <Section bg>
             <Skill />
           </Section>
-          <Section>
+          {/* <Section>
             <ContactForm />
-          </Section>
+          </Section> */}
         </React.Fragment>
       </div>
 

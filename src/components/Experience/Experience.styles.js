@@ -5,10 +5,12 @@ export const useStyles = makeStyles({
     display: "flex",
     flexWrap: "wrap",
     width: "100%",
-    justifyContent: "space-around"
+    height: "100%",
+    justifyContent: "space-around",
   },
   title: {
     margin: "1rem",
+    paddingRight: "1rem",
     fontSize: "2rem",
     fontFamily: "'Comfortaa', cursive",
     textTransform: "uppercase",

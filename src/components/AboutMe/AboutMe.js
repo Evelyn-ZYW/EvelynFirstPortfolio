@@ -26,7 +26,7 @@ const AboutMe = () => {
           <img src={portfolio} alt="profile_photo" className="img" />
           <h1>Evelyn Zhao</h1>
           <div className="subtitle">
-            <h3>Front-End Developer</h3>
+            <h3>Front End Developer</h3>
             <p>
             Versatile Front-End Developer with a keen eye to detail. Strong knowledge of designing and developing responsive and multi-platform web/mobile applications. Proficient in JavaScript, HTML, CSS, and Adobe design software. Ready and eager to update front-end knowledge and skills at every moment.
           </p>
