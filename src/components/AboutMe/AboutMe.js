@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import portfolio from "../../utils/portfolio.png";
 import { Typography } from "@material-ui/core";
 import "./AboutMe.scss";
@@ -28,7 +28,7 @@ const AboutMe = () => {
           <div className="subtitle">
             <h3>Front-End Developer</h3>
             <p>
-              Strong knowledge of designing and developing responsive and user-friendly web/mobile applications. Proficient in HTML, CSS, JavaScript, and Adobe design software. Ready and eager to update my front-end knowledge base at any time.
+            Versatile Front-End Developer with a keen eye to detail. Strong knowledge of designing and developing responsive and multi-platform web/mobile applications. Proficient in JavaScript, HTML, CSS, and Adobe design software. Ready and eager to update front-end knowledge and skills at every moment.
           </p>
           </div>
         </div>
