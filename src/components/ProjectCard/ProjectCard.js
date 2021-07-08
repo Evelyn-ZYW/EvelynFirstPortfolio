@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { Grid, Chip } from "@material-ui/core";
+import React, { useEffect, useState } from 'react'
+import { Grid, Chip } from '@material-ui/core'
 import {
   Card,
   CardActions,
   CardContent,
   CardMedia,
   Typography,
-  IconButton
-} from "@material-ui/core";
-import { Info, Launch, GitHub } from "@material-ui/icons";
-import InfoModal from "../InfoModal/InfoModal";
-import "./ProjectCard.scss";
+  IconButton,
+} from '@material-ui/core'
+import { Info, Launch, GitHub } from '@material-ui/icons'
+import InfoModal from '../InfoModal/InfoModal'
+import './ProjectCard.scss'
 
 export default function ProjectCard({ project }) {
   // ref for the description node
-  const desRef = React.createRef();
-  const [des, setDes] = useState(project.des);
-  const [modalOpen, setModalOpen] = useState(false);
+  const desRef = React.createRef()
+  const [des, setDes] = useState(project.des)
+  const [modalOpen, setModalOpen] = useState(false)
 
   const updateDes = () => {
     /* project.des.length is the no. of characters in the original description
@@ -32,24 +32,24 @@ export default function ProjectCard({ project }) {
       project.des.length * 13 <= desRef.current.offsetWidth * 10
         ? project.des
         : project.des.slice(0, (desRef.current.offsetWidth * 10) / 15).trim() +
-            "..."
-    );
-  };
+            '...',
+    )
+  }
 
   // This runs after render
   useEffect(() => {
-    updateDes(); // Update (trim) the description
-    window.addEventListener("resize", updateDes); // Update the des on resizing
-    return () => window.removeEventListener("resize", updateDes); // Unsubscribe
-  });
+    updateDes() // Update (trim) the description
+    window.addEventListener('resize', updateDes) // Update the des on resizing
+    return () => window.removeEventListener('resize', updateDes) // Unsubscribe
+  })
 
   const handleClose = () => {
-    setModalOpen(false);
-  };
+    setModalOpen(false)
+  }
 
   const handleOpen = () => {
-    setModalOpen(true);
-  };
+    setModalOpen(true)
+  }
 
   return (
     <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
@@ -119,5 +119,5 @@ export default function ProjectCard({ project }) {
         </CardActions>
       </Card>
     </Grid>
-  );
+  )
 }

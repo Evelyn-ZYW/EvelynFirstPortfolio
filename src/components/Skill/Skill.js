@@ -1,9 +1,9 @@
-import React from "react";
-import { SvgIcon, Typography } from "@material-ui/core";
-import "./Skill.css";
-import { Element } from "react-scroll";
+import React from 'react'
+import { SvgIcon, Typography } from '@material-ui/core'
+import './Skill.css'
+import { Element } from 'react-scroll'
 
-import skillList from "../../utils/skill-list";
+import skillList from '../../utils/skill-list'
 
 export default function Skill({ skill }) {
   return (
@@ -13,13 +13,20 @@ export default function Skill({ skill }) {
         display="block"
         align="center"
         style={{
-          margin: "1rem",
-          fontSize: "1.6rem",
-          textTransform: "uppercase",
-          fontFamily: '"Raleway", sans-serif'
+          margin: '1rem',
+          paddingRight: '1rem',
+          fontSize: '2rem',
+          textTransform: 'uppercase',
+          fontFamily: '"Raleway", sans-serif',
         }}
       >
-        <Element name="skill"><img style={{width:"30px"}} src="https://image.flaticon.com/icons/svg/66/66640.svg" />Skills</Element>
+        <Element name="skill">
+          <img
+            style={{ width: '30px' }}
+            src="https://image.flaticon.com/icons/svg/66/66640.svg"
+          />
+          Skills
+        </Element>
       </Typography>
       <div className="skill-container">
         {skillList.map((skill, i) => (
@@ -27,7 +34,7 @@ export default function Skill({ skill }) {
             <SvgIcon
               titleAccess={skill.name}
               color="primary"
-              style={{ width: "auto", height: "100%" }}
+              style={{ width: 'auto', height: '100%' }}
               className="svg-icon"
               viewBox="0 0 24 24"
             >
@@ -37,5 +44,5 @@ export default function Skill({ skill }) {
         ))}
       </div>
     </React.Fragment>
-  );
+  )
 }
