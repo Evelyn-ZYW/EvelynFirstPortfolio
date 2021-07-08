@@ -116,7 +116,7 @@ export default function ScrollableTabsButtonForce() {
 					<Tab onClick={() => scrollFunc("projects")} label='Projects' icon={<FolderIcon />} {...a11yProps(1)} />
 					<Tab onClick={() => scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab onClick={() => scrollFunc("skill")} label='Skill' icon={<DeveloperModeIcon />} {...a11yProps(3)} />
-					{/* <Tab onClick={() => scrollFunc("contact-me")} label='Contact Me' icon={<EmailIcon />} {...a11yProps(4)} /> */}
+					<Tab onClick={() => scrollFunc("contact-me")} label='Contact Me' icon={<EmailIcon />} {...a11yProps(4)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
