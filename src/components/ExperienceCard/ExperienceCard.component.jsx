@@ -20,7 +20,7 @@ export default function ExperienceCard({ title, company, date, desc, img }) {
           </p>
         ))}
       </div>
-      <div>
+      <div className={classes.imgContainer}>
         <img className={classes.expImg} src={img} alt={title} />
       </div>
     </div>

@@ -1,6 +1,6 @@
 let project_list = [
   {
-    image: 'https://i.ibb.co/qWM6ybQ/Screen-Shot-2021-07-08-at-10-18-17-PM.png',
+    image: 'https://i.ibb.co/vkFWG2q/bbot.png',
     title: 'Centre for Burnaby Business Recovery & Resilience',
     des:
       'Landing page created for Burnaby Board of Trade - centre for Burnaby Business Recovery & Resilience.',

@@ -42,7 +42,7 @@
   }
 }
 .one-line {
-  white-space: nowrap;
+  // white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -53,6 +53,6 @@
 // .MuiCardMedia-media {
 // }
 
-.MuiCardMedia-img {
-  border: 1px solid red;
-}
+// .MuiCardMedia-img {
+//   border: 1px solid red;
+// }
