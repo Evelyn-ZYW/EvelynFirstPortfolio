@@ -20,16 +20,15 @@
   overflow: hidden;
 }
 
-.project-image {
-  // height: 200px;
-  // width: 130px;
+// .project-image {
+//   height: 200px;
+//   width: 130px;
 
-  height: 450px;
-  // width: 130px;
-}
+//   height: 450px;
+//   width: 130px;
+// }
 
 .MuiCardContent-root {
-
   .MuiTypography-body2 {
     font-family: 'Raleway', sans-serif;
   }
@@ -46,4 +45,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.MuiCardMedia-root {
+  object-fit: contain;
+}
+// .MuiCardMedia-media {
+// }
+
+.MuiCardMedia-img {
+  border: 1px solid red;
 }
