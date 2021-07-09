@@ -21,20 +21,23 @@
 }
 
 .project-image {
-  height: 200px;
-  width: 130px;
+  // height: 200px;
+  // width: 130px;
+
+  height: 500px;
+  // width: 130px;
 }
 
 .MuiCardContent-root {
   .MuiTypography-body2 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
   }
   .MuiChip-colorPrimary {
-    color: #FFF;
+    color: #fff;
     border-radius: 5px;
   }
 }
