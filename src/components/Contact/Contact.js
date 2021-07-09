@@ -86,11 +86,11 @@ export default function ContactForm() {
             fontFamily: '"Raleway", sans-serif',
           }}
         >
-          {/* <input
+          <input
             type="hidden"
             name="_next"
-            value="localhost:3000/pages/thanks.html"
-          ></input> */}
+            value="https://evelyn-portfolio.herokuapp.com/pages/thanks.html"
+          ></input>
           <TextField
             label="Name"
             type="text"
