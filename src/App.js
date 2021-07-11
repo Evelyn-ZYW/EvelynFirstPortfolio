@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe/AboutMe'
 import ProjectCardList from './components/ProjectCardList/ProjectCardList'
 import Experience from './components/Experience/Experience'
 import Skill from './components/Skill/Skill'
-import ContactForm from "./components/Contact/Contact";
+import ContactForm from './components/Contact/Contact'
 import Section from './components/Section/Section.component'
 
 import './App.scss'
