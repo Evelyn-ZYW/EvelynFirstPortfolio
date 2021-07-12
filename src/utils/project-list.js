@@ -3,8 +3,17 @@ let project_list = [
     image: 'https://i.ibb.co/vkFWG2q/bbot.png',
     title: 'Centre for Burnaby Business Recovery & Resilience',
     des:
-      'Landing page created for Burnaby Board of Trade - centre for Burnaby Business Recovery & Resilience.',
-    tags: ['Javascript', 'Html', 'CSS', 'React', 'Gatsby', 'Wordpress'],
+      'Landing page created for Burnaby Board of Trade - Centre for Burnaby Business Recovery & Resilience.',
+    tags: [
+      'JavaScript',
+      'Html',
+      'CSS',
+      'React',
+      'GraphQL',
+      'Gatsby',
+      'Wordpress',
+      'Headless CMS',
+    ],
     links: {
       launch: 'https://bbotmain.gatsbyjs.io/',
       github: 'https://github.com/HenryBcit/BBoT',
@@ -14,8 +23,8 @@ let project_list = [
     image: 'https://i.ibb.co/TYKLJ9D/tracking.png',
     title: 'Money Tracking App',
     des:
-      'An application for young couples to track their income, bills and expenses.',
-    tags: ['Javascript', 'Html', 'CSS', 'React', 'Figma'],
+      'An app for young couples to keep track of their income, bills and expenses.',
+    tags: ['JavaScript', 'Html', 'CSS', 'React', 'Create React App', 'Figma'],
     links: {
       launch: 'https://money-tracking-app.herokuapp.com/',
       github: 'https://github.com/Evelyn-ZYW/MoneyTrackingApp',
@@ -25,8 +34,8 @@ let project_list = [
     image: 'https://i.ibb.co/HgkVjxk/trashi.png',
     title: 'Trashi Monster',
     des:
-      'Trashi Monster is an educational app for children 5-12 providing tips on how to save the environment.',
-    tags: ['Javascript', 'Html', 'CSS', 'React', 'Storybook', 'Figma'],
+      'Trashi Monster is an educational app for children 5-12 providing tips on how to produce less garbage and save the environment.',
+    tags: ['JavaScript', 'Html', 'CSS', 'React', 'Storybook', 'Figma'],
     links: {
       launch: 'https://trashimonster.herokuapp.com/Home',
       github: 'https://github.com/Evelyn-ZYW/TrashiMonster',
@@ -36,9 +45,9 @@ let project_list = [
     image: 'https://i.ibb.co/xfkSfp0/farmily.png',
     title: 'Farmily',
     des:
-      'Farmily is an social networking that allows BC farmers to communicate, trade, and book slaughterhouses.',
+      'Farmily is an social networking mobile app that provides a platform for BC farmers to communicate, trade, and book slaughterhouses.',
     tags: [
-      'Javascript',
+      'JavaScript',
       'Html',
       'CSS',
       'ReactNative',
@@ -53,7 +62,7 @@ let project_list = [
   {
     image: 'https://i.ibb.co/fx2SfCd/speedy.png',
     title: 'Speedy',
-    des: 'Parking searching application',
+    des: 'Speedy is designed as a parking lot searching app.',
     tags: ['UI/UX Design', 'Figma'],
     links: {
       launch:
