@@ -109,6 +109,15 @@ const App = () => {
           <Section>
             <ContactForm />
           </Section>
+            <h4 className="credentials">
+              <a href="https://lottiefiles.com/NoobSaiyan">
+              ❤️ Loading Animation by Manmeet Singh on LottieFiles
+              </a>
+              <br />
+              <a href="https://lottiefiles.com/directdesign22">
+              ❤️ Loaded Animation by Bashir Ahmed on LottieFiles
+              </a>
+            </h4>
         </React.Fragment>
       )}
     </div>
