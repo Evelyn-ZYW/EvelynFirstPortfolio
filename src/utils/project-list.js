@@ -1,5 +1,22 @@
 let project_list = [
   {
+    image: 'https://i.ibb.co/MGp42jM/5.png',
+    title: 'Frontend Demo App',
+    des:
+      'An app to add, delete and search items from the columns.',
+    tags: [
+      'JavaScript',
+      'Html',
+      'SCSS',
+      'React',
+      'Styled-components',
+    ],
+    links: {
+      launch: 'https://frontend-demo-1.netlify.app/',
+      github: 'https://github.com/Evelyn-ZYW/FE-Assessment-F8TCH',
+    },
+  },
+  {
     image: 'https://i.ibb.co/vkFWG2q/bbot.png',
     title: 'Burnaby Board of Trade',
     des:
