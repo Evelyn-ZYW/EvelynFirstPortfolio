@@ -7,8 +7,9 @@
 .chip-container {
   display: flex;
   flex-flow: row wrap;
-  height: 26px; /* pre-calculated */
-  overflow: hidden;
+  // height: 26px; /* pre-calculated */
+  height: 50px;
+  // overflow: hidden;
 }
 
 .chip {

@@ -1,8 +1,8 @@
-import React from 'react'
-// import styled from "styled-components";
-import portfolio from '../../utils/portfolio.png'
-import { Typography } from '@material-ui/core'
-import './AboutMe.scss'
+import React from 'react';
+import styled from 'styled-components';
+// import portfolio from '../../utils/portfolio.png';
+import { Typography } from '@material-ui/core';
+import './AboutMe.scss';
 
 const AboutMe = () => {
   return (
@@ -22,20 +22,23 @@ const AboutMe = () => {
             </Element> */}
       </Typography>
       <div className="name">
-        <img src={portfolio} alt="profile_photo" className="img" />
-        <h1>Evelyn Zhao</h1>
+        <h1>Hi, I'm Evelyn.</h1>
+
         <div className="subtitle">
-          <h3>Front End Developer</h3>
+          {/* <h3>Front End Developer</h3> */}
           <p>
-            Versatile Front End Developer with a keen eye to detail. Experienced
-            working with teams to produce impactful, leading-edge web/mobile
-            applications that engage customers and deliver business results.
-            Well-versed in design standards and user preferences.
+            Many years ago an idea flashed into my mind that I could be a coder too. I thought that was only a dream.
+          </p>
+          <p>
+            Even at the time I went back to school wanting to become a designer, I never thought I would be good at coding.
+          </p>
+          <p>
+            I am not the best coder, but I always try my best.
           </p>
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

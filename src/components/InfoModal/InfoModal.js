@@ -60,6 +60,7 @@ export default function ({ project, handleClose }) {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            marginTop: '30px'
           }}
         >
           <Button variant="outlined" color="primary" onClick={handleClose}>
