@@ -18,14 +18,11 @@ const AboutMe = () => {
         <div className="subtitle">
           {/* <h3>Front End Developer</h3> */}
           <p>
-            Many years ago an idea flashed into my mind that I could be a coder
-            too. I thought that was only a dream.
+            Versatile Front End Developer with a keen eye to detail. Experienced
+            working with teams to produce impactful, leading-edge web/mobile
+            applications that engage customers and deliver business results.
+            Well-versed in design standards and user preferences.
           </p>
-          <p>
-            Even at the time I went back to school wanting to become a designer,
-            I never thought I would be good at coding.
-          </p>
-          <p>I am not the best coder, but I always try my best.</p>
         </div>
       </div>
     </Container>

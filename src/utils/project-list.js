@@ -16,25 +16,25 @@ let project_list = [
       github: 'https://github.com/Evelyn-ZYW/FE-Assessment-F8TCH',
     },
   },
-  {
-    image: 'https://i.ibb.co/vkFWG2q/bbot.png',
-    title: 'Landing Page',
-    des:
-      "Landing page created for Burnaby Board of Trade. The UI design was tailored to the needs of our client. All the components were coded with React. The content can be updated through CMS by our client.",
-    tags: [
-      'JavaScript',
-      'Html',
-      'Sass',
-      'React',
-      'GraphQL',
-      'Gatsby',
-      'Headless CMS',
-    ],
-    links: {
-      launch: 'https://bbotmain.gatsbyjs.io/',
-      github: 'https://github.com/HenryBcit/BBoT',
-    },
-  },
+  // {
+  //   image: 'https://i.ibb.co/vkFWG2q/bbot.png',
+  //   title: 'Landing Page',
+  //   des:
+  //     "Landing page created for Burnaby Board of Trade. The UI design was tailored to the needs of our client. All the components were coded with React. The content can be updated through CMS by our client.",
+  //   tags: [
+  //     'JavaScript',
+  //     'Html',
+  //     'Sass',
+  //     'React',
+  //     'GraphQL',
+  //     'Gatsby',
+  //     'Headless CMS',
+  //   ],
+  //   links: {
+  //     launch: 'https://bbotmain.gatsbyjs.io/',
+  //     github: 'https://github.com/HenryBcit/BBoT',
+  //   },
+  // },
   {
     image: 'https://i.ibb.co/TYKLJ9D/tracking.png',
     title: 'Money Tracking App',
