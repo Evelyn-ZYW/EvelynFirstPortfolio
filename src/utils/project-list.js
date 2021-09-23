@@ -1,6 +1,6 @@
 let project_list = [
   {
-    image: 'https://i.ibb.co/MGp42jM/5.png',
+    image: 'https://i.ibb.co/z4m1xsX/6.png',
     title: 'Frontend Demo App',
     des:
       'An app to add, delete and search items. This was a frontend coding assessment I did for a job application.',
