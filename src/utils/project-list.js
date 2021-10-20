@@ -1,5 +1,22 @@
 let project_list = [
   {
+    image: 'https://i.ibb.co/McX3PBM/7.png',
+    title: 'Adopt Pet App',
+    des:
+      'An pet adoption app to see available animals by their type.',
+    tags: [
+      'JavaScript',
+      'Html',
+      'React',
+      'Context',
+      'Router',
+    ],
+    links: {
+      launch: 'https://adopt-fur-baby.netlify.app/',
+      github: 'https://github.com/Evelyn-ZYW/ADOPT-ME',
+    },
+  },
+  {
     image: 'https://i.ibb.co/z4m1xsX/6.png',
     title: 'Frontend Demo App',
     des:
