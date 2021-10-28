@@ -34,6 +34,7 @@ export default function ProjectCardList() {
           <img
             style={{ width: '30px' }}
             src="https://cdn.pixabay.com/photo/2013/07/12/18/54/star-153971_960_720.png"
+            alt=""
           />
           Projects
         </Element>
