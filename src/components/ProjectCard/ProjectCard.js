@@ -107,6 +107,7 @@ export default function ProjectCard({ project }) {
             title="Launch App"
             aria-label="Launch Application"
             href={project.links.launch}
+            target="_blank"
           >
             <Launch />
           </IconButton>
@@ -114,6 +115,7 @@ export default function ProjectCard({ project }) {
             title="See Code"
             aria-label="Source Code On Github"
             href={project.links.github}
+            target="_blank"
           >
             <GitHub />
           </IconButton>
