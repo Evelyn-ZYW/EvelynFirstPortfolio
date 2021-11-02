@@ -90,7 +90,7 @@ export default function ScrollableTabsButtonForce() {
 			scroller.scrollTo(e, {
 				duration: 800,
 				delay: 0,
-				offset: -200,
+				offset: -100,
 				smooth: 'easeInOutQuart'
 			})
 		}
@@ -129,6 +129,9 @@ export default function ScrollableTabsButtonForce() {
 			</TabPanel>
 			<TabPanel value={value} index={3}>
 				Skill
+			</TabPanel>
+			<TabPanel value={value} index={4}>
+				Contact Me
 			</TabPanel>
 		</div>
 	);

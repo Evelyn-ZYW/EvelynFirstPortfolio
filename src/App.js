@@ -94,9 +94,7 @@ const App = () => {
       ) : (
         <React.Fragment>
           <ScrollableTabsButtonForce />
-          {/* <Section> */}
-            <AboutMe />
-          {/* </Section> */}
+          <AboutMe />
           <Section bg>
             <ProjectCardList />
           </Section>
@@ -109,6 +107,7 @@ const App = () => {
           <Section>
             <ContactForm />
           </Section>
+          <Section bg>
             <h4 className="credentials">
               <a href="https://lottiefiles.com/NoobSaiyan">
               💜 Loading Animation by Manmeet Singh on LottieFiles
@@ -122,6 +121,7 @@ const App = () => {
               💜 Scroll Animation by Arnaud Guidi on LottieFiles
               </a>
             </h4>
+          </Section>
         </React.Fragment>
       )}
     </div>
