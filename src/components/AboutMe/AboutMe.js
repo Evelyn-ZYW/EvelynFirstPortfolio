@@ -25,7 +25,6 @@ const AboutMe = () => {
     <Container>
       <div className="name">
         <h1>Hey :) I'm Evelyn.</h1>
-
         <div className="subtitle">
           {/* <h3>Front End Developer</h3> */}
           <p>
