@@ -1,6 +1,6 @@
 .tabs {
 	background: #FFF !important;
-	position: sticky;
+	position: absolute;
 	z-index: 999;
 }
 

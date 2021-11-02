@@ -6,14 +6,11 @@ import "@lottiefiles/lottie-player";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
+  height: calc(100vh - 50px);
 `;
 
 const AboutMe = () => {
