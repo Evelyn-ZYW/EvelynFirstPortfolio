@@ -117,8 +117,8 @@ const App = () => {
               💜 Loaded Animation by Bashir Ahmed on LottieFiles
               </a>
               <br />
-              <a href="https://lottiefiles.com/user/1808">
-              💜 Scroll Animation by Arnaud Guidi on LottieFiles
+              <a href="https://lottiefiles.com/user/476785">
+              💜 Scroll Animation by Vincent Vanthienen on LottieFiles
               </a>
             </h4>
           </Section>
