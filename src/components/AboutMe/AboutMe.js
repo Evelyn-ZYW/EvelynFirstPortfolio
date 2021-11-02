@@ -30,7 +30,7 @@ const AboutMe = () => {
           {/* <h3>Front End Developer</h3> */}
           <p>
             Enthusiastic Front End Developer with a keen eye to detail. Experienced
-            working with teams to produce impactful, leading-edge web/mobile
+            working with teams to produce impactful, responsive web/mobile
             applications that engage customers and deliver business results.
             Well-versed in design standards and user preferences.
           </p>
