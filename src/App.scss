@@ -1,13 +1,11 @@
 .App {
-  // background-color: #F9F8F8;
   background-color: #E9E7FC;
-  // background-color: #28A9CC;
   font-family: 'Raleway', sans-serif;
-  position: 'relative',
+  position: 'relative';
+  height: 100%;
 }
 .loading {
   background-color: #FDE8E9;
-  background-color: #E9E7FC;
   display: flex;
   align-items: center;
   justify-content: center;
