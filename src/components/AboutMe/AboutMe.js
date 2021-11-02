@@ -9,8 +9,11 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 `;
 
 const AboutMe = () => {
