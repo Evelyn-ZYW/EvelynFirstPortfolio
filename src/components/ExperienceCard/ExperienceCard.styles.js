@@ -1,4 +1,4 @@
-import { blue } from '@material-ui/core/colors'
+// import { blue } from '@material-ui/core/colors'
 import { makeStyles } from '@material-ui/core/styles'
 
 export const useStyles = makeStyles({
@@ -11,7 +11,8 @@ export const useStyles = makeStyles({
     position: 'relative',
   },
   expImg: {
-    backgroundColor: '#F9F8F8',
+    // backgroundColor: '#F9F8F8',
+    backgroundColor: '#E9E7FC',
     position: 'absolute',
     left: 0,
     top: 0,

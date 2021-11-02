@@ -1,3 +1,8 @@
+#scroll-down {
+  height: 400px;
+  position: absolute;
+  bottom: 10rem;
+}
 .name {
   // display: grid;
   // grid-template-columns: 1fr 2fr;
@@ -12,6 +17,8 @@
   // border: 1px solid red;
   min-width: 50%;
   max-width: 50%;
+  position: relative;
+  top: -10rem;
 }
 
 // .img {
@@ -86,6 +93,10 @@ p {
     min-width: 50%;
     max-width: 50%;
   }
+  #scroll-down {
+    height: 300px;
+    bottom: 5rem;
+  }
   @media only screen and (max-width: 600px) {
     .name {
       // display: grid;
@@ -94,7 +105,10 @@ p {
       min-width: 80%;
       max-width: 80%;
     }
-
+    #scroll-down {
+      height: 250px;
+      bottom: 2rem;
+    }
     // .img {
     //   justify-self: center;
     //   align-self: center;

@@ -94,9 +94,9 @@ const App = () => {
       ) : (
         <React.Fragment>
           <ScrollableTabsButtonForce />
-          <Section>
+          {/* <Section> */}
             <AboutMe />
-          </Section>
+          {/* </Section> */}
           <Section bg>
             <ProjectCardList />
           </Section>
@@ -111,11 +111,15 @@ const App = () => {
           </Section>
             <h4 className="credentials">
               <a href="https://lottiefiles.com/NoobSaiyan">
-              ❤️ Loading Animation by Manmeet Singh on LottieFiles
+              💜 Loading Animation by Manmeet Singh on LottieFiles
               </a>
               <br />
               <a href="https://lottiefiles.com/directdesign22">
-              ❤️ Loaded Animation by Bashir Ahmed on LottieFiles
+              💜 Loaded Animation by Bashir Ahmed on LottieFiles
+              </a>
+              <br />
+              <a href="https://lottiefiles.com/user/1808">
+              💜 Scroll Animation by Arnaud Guidi on LottieFiles
               </a>
             </h4>
         </React.Fragment>

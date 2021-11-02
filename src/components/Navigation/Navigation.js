@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import FaceIcon from '@material-ui/icons/Face';
 import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
@@ -130,9 +129,6 @@ export default function ScrollableTabsButtonForce() {
 			</TabPanel>
 			<TabPanel value={value} index={3}>
 				Skill
-			</TabPanel>
-			<TabPanel value={value} index={4}>
-
 			</TabPanel>
 		</div>
 	);

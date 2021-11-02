@@ -21,6 +21,7 @@ function Experience() {
           <img
             style={{ width: '40px' }}
             src="https://images.vexels.com/media/users/3/205061/isolated/preview/e285745516f14f8a8fd3f688fcbe8962-stars-simple-hand-drawn-by-vexels.png"
+            alt=""
           />
           Experience
         </Element>
