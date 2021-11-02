@@ -1,7 +1,8 @@
 #scroll-down {
   height: 300px;
   position: absolute;
-  bottom: 0;
+  bottom: -2rem;
+  opacity: 0.5;
 }
 .name {
   display: flex;
@@ -51,6 +52,7 @@ p {
   }
   #scroll-down {
     height: 300px;
+    bottom: -2rem;
   }
   @media only screen and (max-width: 600px) {
     .name {
