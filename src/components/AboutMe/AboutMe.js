@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 // import portfolio from '../../utils/portfolio.png';
 import './AboutMe.scss';
@@ -14,10 +14,12 @@ const Container = styled.div`
 `;
 
 const AboutMe = () => {
-  const [display, setdisplay] = useState(null);
+  const [display, setdisplay] = useState(false);
+
   setTimeout(()=>{
     setdisplay(true);
   }, 2000)
+
   return (
     <Container>
       <div className="name">
@@ -32,8 +34,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      {display? 
-          <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_jfchliut.json"  background="transparent" speed="1" loop autoplay mode="normal" id="scroll-down"></lottie-player> : null }
+          <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_jfchliut.json"  background="transparent" speed="1" loop autoplay mode="normal" id={display?"scroll-down" : "scroll-down-hide"}></lottie-player>
 
     </Container>
   );

@@ -3,6 +3,13 @@
   position: absolute;
   bottom: 0;
   opacity: 0.5;
+  transition: 1.5s;
+}
+#scroll-down-hide {
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
 }
 .name {
   display: flex;
@@ -65,6 +72,11 @@ p {
     height: 300px;
     bottom: -1rem;
   }
+  #scroll-down-hide {
+    height: 300px;
+    bottom: -1rem;
+    opacity: 0;
+  }
   @media only screen and (max-width: 600px) {
     .name {
       min-width: 80%;
@@ -73,6 +85,12 @@ p {
     }
     #scroll-down {
       height: 250px;
+      bottom: 0;
+    }
+    #scroll-down-hide {
+      height: 250px;
+      bottom: 0;
+      opacity: 0;
     }
 
     h1 {
