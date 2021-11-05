@@ -25,6 +25,7 @@ export default function Skill({ skill }) {
           <img
             style={{ width: '30px' }}
             src={Star}
+            alt=""
           />
           Skills
         </Element>

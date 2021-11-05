@@ -192,6 +192,7 @@ class ContactForm extends React.Component {
             <img
               style={{ width: '40px' }}
               src={Star}
+              alt=""
             />
             Contact Me
           </Element>
