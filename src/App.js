@@ -109,15 +109,15 @@ const App = () => {
           </Section>
           <Section bg>
             <h4 className="credentials">
-              <a href="https://lottiefiles.com/NoobSaiyan">
+              <a href="https://lottiefiles.com/NoobSaiyan" target="_blank" rel="noreferrer">
               💜 Loading Animation by Manmeet Singh on LottieFiles
               </a>
               <br />
-              <a href="https://lottiefiles.com/directdesign22">
+              <a href="https://lottiefiles.com/directdesign22" target="_blank" rel="noreferrer">
               💜 Loaded Animation by Bashir Ahmed on LottieFiles
               </a>
               <br />
-              <a href="https://lottiefiles.com/user/476785">
+              <a href="https://lottiefiles.com/user/476785" target="_blank" rel="noreferrer">
               💜 Scroll Animation by Vincent Vanthienen on LottieFiles
               </a>
             </h4>
