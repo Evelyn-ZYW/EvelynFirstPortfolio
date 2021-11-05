@@ -4,6 +4,7 @@ import './Skill.css'
 import { Element } from 'react-scroll'
 
 import skillList from '../../utils/skill-list'
+import Star from '../../utils/star7.png'
 
 export default function Skill({ skill }) {
   return (
@@ -23,7 +24,7 @@ export default function Skill({ skill }) {
         <Element name="skill">
           <img
             style={{ width: '30px' }}
-            src="https://image.flaticon.com/icons/svg/66/66640.svg"
+            src={Star}
           />
           Skills
         </Element>

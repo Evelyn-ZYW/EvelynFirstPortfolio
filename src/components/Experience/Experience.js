@@ -5,6 +5,7 @@ import { exp } from '../../utils/experience-list'
 import { useStyles } from './Experience.styles'
 import ExperienceCard from '../ExperienceCard/ExperienceCard.component.jsx'
 import { Element } from 'react-scroll'
+import Star from '../../utils/star1.png'
 function Experience() {
   const classes = useStyles()
 
@@ -20,7 +21,7 @@ function Experience() {
         <Element name="experience">
           <img
             style={{ width: '40px' }}
-            src="https://images.vexels.com/media/users/3/205061/isolated/preview/e285745516f14f8a8fd3f688fcbe8962-stars-simple-hand-drawn-by-vexels.png"
+            src={Star}
             alt=""
           />
           Experience

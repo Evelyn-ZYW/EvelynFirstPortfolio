@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import project_list from '../../utils/project-list'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import { Element } from 'react-scroll'
-
+import Star from '../../utils/star6.png';
 const useStyles = makeStyles({
   'spacing-xs-4': {
     width: 'inherit',
@@ -33,7 +33,7 @@ export default function ProjectCardList() {
         <Element name="projects">
           <img
             style={{ width: '30px' }}
-            src="https://cdn.pixabay.com/photo/2013/07/12/18/54/star-153971_960_720.png"
+            src={Star}
             alt=""
           />
           Projects

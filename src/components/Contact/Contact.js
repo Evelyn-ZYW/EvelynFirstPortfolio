@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import { Typography } from '@material-ui/core'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
-import axios from 'axios'
 import { Element } from 'react-scroll'
 import './Contact.css'
+import Star from '../../utils/star8.png'
 
 /*
 export default function ContactForm() {
@@ -191,7 +191,7 @@ class ContactForm extends React.Component {
           <Element name="contact-me">
             <img
               style={{ width: '40px' }}
-              src="https://image.flaticon.com/icons/png/512/66/66612.png"
+              src={Star}
             />
             Contact Me
           </Element>
