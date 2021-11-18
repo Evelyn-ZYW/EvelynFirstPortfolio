@@ -1,36 +1,40 @@
+import Memory from "../assets/projects/memory.png";
+import Adopt from "../assets/projects/adopt.png";
+import Farmily from "../assets/projects/farmily.png";
+import Speedy from "../assets/projects/speedy.png";
+import Team from "../assets/projects/team.png";
+import Tracking from "../assets/projects/tracking.png";
+import Trashi from "../assets/projects/trashi.png";
+
 let project_list = [
   {
-    image: 'https://i.ibb.co/McX3PBM/7.png',
-    title: 'Adopt Pet App',
-    des:
-      'An pet adoption app to see available animals by their type.',
-    tags: [
-      'JavaScript',
-      'Html',
-      'React',
-      'Context',
-      'Router',
-    ],
+    image: Memory,
+    title: "Fruits Memory Game",
+    des: "Match all five pairs of fruits to win!.",
+    tags: ["React", "JavaScript", "Html", "CSS"],
     links: {
-      launch: 'https://adopt-fur-baby.netlify.app/',
-      github: 'https://github.com/Evelyn-ZYW/ADOPT-ME',
+      launch: "https://fruits-memory-game.netlify.app/",
+      github: "https://github.com/Evelyn-ZYW/memory-game",
     },
   },
   {
-    image: 'https://i.ibb.co/z4m1xsX/6.png',
-    title: 'Frontend Demo App',
-    des:
-      'An app to add, delete and search items. This was a frontend coding assessment I did for a job application.',
-    tags: [
-      'JavaScript',
-      'Html',
-      'Sass',
-      'Styled-components',
-      'React',
-    ],
+    image: Adopt,
+    title: "Pet Adoption App",
+    des: "A pet adoption app to see available animals by their type.",
+    tags: ["React", "Context", "Router", "JavaScript", "Html", "CSS"],
     links: {
-      launch: 'https://frontend-demo-1.netlify.app/',
-      github: 'https://github.com/Evelyn-ZYW/FE-Assessment-F8TCH',
+      launch: "https://adopt-fur-baby.netlify.app/",
+      github: "https://github.com/Evelyn-ZYW/ADOPT-ME",
+    },
+  },
+  {
+    image: Team,
+    title: "Team Member List",
+    des: "An app to add, delete and search team members.",
+    tags: ["React", "JavaScript", "Html", "CSS", "Sass", "Styled-components"],
+    links: {
+      launch: "https://frontend-demo-1.netlify.app/",
+      github: "https://github.com/Evelyn-ZYW/FE-Assessment-F8TCH",
     },
   },
   // {
@@ -53,56 +57,54 @@ let project_list = [
   //   },
   // },
   {
-    image: 'https://i.ibb.co/TYKLJ9D/tracking.png',
-    title: 'Money Tracking App',
-    des:
-      'An unique app designed and developed for young couples to keep track of their income, bills and expenses. I am working on improving it.',
-    tags: ['JavaScript', 'Html', 'Sass', 'React', 'Figma'],
+    image: Tracking,
+    title: "Money Tracking App",
+    des: "An unique app designed and developed for young couples to keep track of their income, bills and expenses. I am working on improving it.",
+    tags: ["React", "JavaScript", "Html", "CSS"],
     links: {
-      launch: 'https://money-tracking-app.herokuapp.com/',
-      github: 'https://github.com/Evelyn-ZYW/MoneyTrackingApp',
+      launch: "https://money-tracking-app.herokuapp.com/",
+      github: "https://github.com/Evelyn-ZYW/MoneyTrackingApp",
     },
   },
   {
-    image: 'https://i.ibb.co/HgkVjxk/trashi.png',
-    title: 'Trashi Monster',
-    des:
-      'Trashi Monster was an educational app for children 5-12 providing tips on how to produce less garbage and save the environment.',
-    tags: ['JavaScript', 'Html', 'CSS', 'React', 'Storybook', 'Figma'],
+    image: Trashi,
+    title: "Trashi Monster",
+    des: "Trashi Monster was an educational app for children 5-12 providing tips on how to produce less garbage and save the environment.",
+    tags: ["React", "JavaScript", "Html", "CSS", "Storybook"],
     links: {
-      launch: 'https://trashimonster.herokuapp.com/Home',
-      github: 'https://github.com/Evelyn-ZYW/TrashiMonster',
+      launch: "https://trashimonster.herokuapp.com/Home",
+      github: "https://github.com/Evelyn-ZYW/TrashiMonster",
     },
   },
   {
-    image: 'https://i.ibb.co/xfkSfp0/farmily.png',
-    title: 'Farmily',
-    des:
-      'Farmily was designed as a social networking mobile app that provides a platform for BC farmers to communicate, trade, and book farm appointments.',
+    image: Farmily,
+    title: "Farmily",
+    des: "Farmily was designed as a social networking mobile app that provides a platform for BC farmers to communicate, trade, and book farm appointments.",
     tags: [
-      'JavaScript',
-      'Html',
-      'CSS',
-      'ReactNative',
-      'Xcode',
-      'Android Studio',
+      "React",
+      "ReactNative",
+      "Xcode",
+      "Android Studio",
+      "JavaScript",
+      "Html",
+      "CSS",
     ],
     links: {
       // launch: '',
-      github: 'https://github.com/Evelyn-ZYW/FarmilyFrontEnd',
+      github: "https://github.com/Evelyn-ZYW/FarmilyFrontEnd",
     },
   },
   {
-    image: 'https://i.ibb.co/fx2SfCd/speedy.png',
-    title: 'Speedy',
-    des: 'Speedy was designed as a parking lot searching app using Figma. A good front end developer understands good UI/UX, as well as the tool to create it.',
-    tags: ['UI/UX Design', 'Frontend Design', 'Figma'],
+    image: Speedy,
+    title: "Speedy",
+    des: "Speedy was designed as a parking lot searching app using Figma. A good front end developer understands good UI/UX, as well as the tool to create it.",
+    tags: ["UI/UX Design", "Figma"],
     links: {
       launch:
-        'https://www.figma.com/proto/smOW4nW6WFjUD5MddBT1y7/Assignment-10-Part-3?node-id=2%3A39&scaling=scale-down&page-id=0%3A1',
+        "https://www.figma.com/proto/smOW4nW6WFjUD5MddBT1y7/Assignment-10-Part-3?node-id=2%3A39&scaling=scale-down&page-id=0%3A1",
       // github: '',
     },
   },
-]
+];
 
-export default project_list
+export default project_list;
