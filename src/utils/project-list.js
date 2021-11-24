@@ -9,16 +9,6 @@ import Trashi from "../assets/projects/trashi.png";
 
 let project_list = [
   {
-    image: Recipes,
-    title: "Cooking Recipe App",
-    des: "Add a cooking recipe you like. Switch between 3 color themes, and light/dark mode.",
-    tags: ["React", "JavaScript", "Html", "CSS", "React Router"],
-    links: {
-      launch: "https://cooking-recipe-site.web.app/",
-      github: "https://github.com/Evelyn-ZYW/React-Firebase/tree/master/cooking-ninja",
-    },
-  },
-  {
     image: Memory,
     title: "Fruits Memory Game",
     des: "Match all five pairs of fruits to win!.",
@@ -26,6 +16,17 @@ let project_list = [
     links: {
       launch: "https://fruits-memory-game.netlify.app/",
       github: "https://github.com/Evelyn-ZYW/memory-game",
+    },
+  },
+  {
+    image: Recipes,
+    title: "Cooking Recipe App",
+    des: "Add a cooking recipe you like. Switch between 3 color themes, and light/dark mode.",
+    tags: ["React", "Context", "Router", "JavaScript", "Html", "CSS"],
+    links: {
+      launch: "https://cooking-recipe-site.web.app/",
+      github:
+        "https://github.com/Evelyn-ZYW/React-Firebase/tree/master/cooking-ninja",
     },
   },
   {
