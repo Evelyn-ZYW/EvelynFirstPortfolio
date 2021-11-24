@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0bdb6c46.chunk.css",
-    "main.js": "/static/js/main.6dae1d48.chunk.js",
-    "main.js.map": "/static/js/main.6dae1d48.chunk.js.map",
+    "main.js": "/static/js/main.f231781d.chunk.js",
+    "main.js.map": "/static/js/main.f231781d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.28516fbf.chunk.js": "/static/js/2.28516fbf.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/experience.e1b99e3a.png": "/static/media/experience.e1b99e3a.png",
     "static/media/farmily.2d41c726.png": "/static/media/farmily.2d41c726.png",
     "static/media/memory.c4e5668d.png": "/static/media/memory.c4e5668d.png",
+    "static/media/recipes.77948c3b.png": "/static/media/recipes.77948c3b.png",
     "static/media/speedy.4fb21447.png": "/static/media/speedy.4fb21447.png",
     "static/media/star1.2dad8ded.png": "/static/media/star1.2dad8ded.png",
     "static/media/star6.c00403d6.png": "/static/media/star6.c00403d6.png",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.28516fbf.chunk.js",
     "static/css/main.0bdb6c46.chunk.css",
-    "static/js/main.6dae1d48.chunk.js"
+    "static/js/main.f231781d.chunk.js"
   ]
 }
